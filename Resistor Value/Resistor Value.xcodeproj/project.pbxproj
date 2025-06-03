@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D33113E2DB45E3F002B5AAF /* ImprovedResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33113D2DB45E3F002B5AAF /* ImprovedResultsView.swift */; };
+		3D3311442DB46B0C002B5AAF /* ResistorColorClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3311432DB46B0C002B5AAF /* ResistorColorClassifier.swift */; };
+		3D3311482DB46B50002B5AAF /* CompatibleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3311472DB46B50002B5AAF /* CompatibleContentView.swift */; };
+		3D33ED922D84A159008F76A5 /* CameraPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33ED8A2D84A159008F76A5 /* CameraPreviewController.swift */; };
+		3D33ED952D84A159008F76A5 /* CameraPreviewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33ED8B2D84A159008F76A5 /* CameraPreviewRepresentable.swift */; };
+		3D33ED992D84E106008F76A5 /* LABColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33ED982D84E106008F76A5 /* LABColor.swift */; };
+		3D95E81F2DEBE65100F4EB7C /* ResistorValueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E81E2DEBE65100F4EB7C /* ResistorValueApp.swift */; };
+		3D95E8212DEBE8BC00F4EB7C /* IntegratedResistorAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E8202DEBE8BC00F4EB7C /* IntegratedResistorAnalyzer.swift */; };
+		3DB2F2BC2DEEA8E8006EAE44 /* ResistorColorSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2F2BB2DEEA8E8006EAE44 /* ResistorColorSampler.swift */; };
+		3DB2F2BE2DEEA8F4006EAE44 /* ResistorBandDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2F2BD2DEEA8F4006EAE44 /* ResistorBandDetector.swift */; };
+		3DB2F2C02DEEA8FF006EAE44 /* ResistorColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2F2BF2DEEA8FF006EAE44 /* ResistorColorExtractor.swift */; };
+		3DB2F2C42DEF5B8B006EAE44 /* ColorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2F2C32DEF5B8B006EAE44 /* ColorUtilities.swift */; };
+		3DB2F2C62DEF5C02006EAE44 /* ImprovedResistorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2F2C52DEF5C02006EAE44 /* ImprovedResistorCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D33113D2DB45E3F002B5AAF /* ImprovedResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprovedResultsView.swift; sourceTree = "<group>"; };
+		3D3311432DB46B0C002B5AAF /* ResistorColorClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorColorClassifier.swift; sourceTree = "<group>"; };
+		3D3311472DB46B50002B5AAF /* CompatibleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibleContentView.swift; sourceTree = "<group>"; };
+		3D33ED772D84A12B008F76A5 /* Resistor Value.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resistor Value.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D33ED8A2D84A159008F76A5 /* CameraPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewController.swift; sourceTree = "<group>"; };
+		3D33ED8B2D84A159008F76A5 /* CameraPreviewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewRepresentable.swift; sourceTree = "<group>"; };
+		3D33ED982D84E106008F76A5 /* LABColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LABColor.swift; sourceTree = "<group>"; };
+		3D95E81E2DEBE65100F4EB7C /* ResistorValueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorValueApp.swift; sourceTree = "<group>"; };
+		3D95E8202DEBE8BC00F4EB7C /* IntegratedResistorAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratedResistorAnalyzer.swift; sourceTree = "<group>"; };
+		3DB2F2BB2DEEA8E8006EAE44 /* ResistorColorSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorColorSampler.swift; sourceTree = "<group>"; };
+		3DB2F2BD2DEEA8F4006EAE44 /* ResistorBandDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorBandDetector.swift; sourceTree = "<group>"; };
+		3DB2F2BF2DEEA8FF006EAE44 /* ResistorColorExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorColorExtractor.swift; sourceTree = "<group>"; };
+		3DB2F2C32DEF5B8B006EAE44 /* ColorUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtilities.swift; sourceTree = "<group>"; };
+		3DB2F2C52DEF5C02006EAE44 /* ImprovedResistorCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprovedResistorCalculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D33ED792D84A12B008F76A5 /* Resistor Value */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Resistor Value";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D33ED742D84A12B008F76A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D33ED6E2D84A12B008F76A5 = {
+			isa = PBXGroup;
+			children = (
+				3D33ED792D84A12B008F76A5 /* Resistor Value */,
+				3D33ED982D84E106008F76A5 /* LABColor.swift */,
+				3D3311432DB46B0C002B5AAF /* ResistorColorClassifier.swift */,
+				3DB2F2C32DEF5B8B006EAE44 /* ColorUtilities.swift */,
+				3DB2F2C52DEF5C02006EAE44 /* ImprovedResistorCalculator.swift */,
+				3D33ED8A2D84A159008F76A5 /* CameraPreviewController.swift */,
+				3D95E8202DEBE8BC00F4EB7C /* IntegratedResistorAnalyzer.swift */,
+				3DB2F2BB2DEEA8E8006EAE44 /* ResistorColorSampler.swift */,
+				3DB2F2BD2DEEA8F4006EAE44 /* ResistorBandDetector.swift */,
+				3DB2F2BF2DEEA8FF006EAE44 /* ResistorColorExtractor.swift */,
+				3D33ED8B2D84A159008F76A5 /* CameraPreviewRepresentable.swift */,
+				3D33113D2DB45E3F002B5AAF /* ImprovedResultsView.swift */,
+				3D3311472DB46B50002B5AAF /* CompatibleContentView.swift */,
+				3D95E81E2DEBE65100F4EB7C /* ResistorValueApp.swift */,
+				3D33ED782D84A12B008F76A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D33ED782D84A12B008F76A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D33ED772D84A12B008F76A5 /* Resistor Value.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D33ED762D84A12B008F76A5 /* Resistor Value */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D33ED852D84A12C008F76A5 /* Build configuration list for PBXNativeTarget "Resistor Value" */;
+			buildPhases = (
+				3D33ED732D84A12B008F76A5 /* Sources */,
+				3D33ED742D84A12B008F76A5 /* Frameworks */,
+				3D33ED752D84A12B008F76A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3D33ED792D84A12B008F76A5 /* Resistor Value */,
+			);
+			name = "Resistor Value";
+			packageProductDependencies = (
+			);
+			productName = "Resistor Value";
+			productReference = 3D33ED772D84A12B008F76A5 /* Resistor Value.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D33ED6F2D84A12B008F76A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					3D33ED762D84A12B008F76A5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 3D33ED722D84A12B008F76A5 /* Build configuration list for PBXProject "Resistor Value" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D33ED6E2D84A12B008F76A5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3D33ED782D84A12B008F76A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D33ED762D84A12B008F76A5 /* Resistor Value */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D33ED752D84A12B008F76A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D33ED732D84A12B008F76A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D33ED922D84A159008F76A5 /* CameraPreviewController.swift in Sources */,
+				3DB2F2BE2DEEA8F4006EAE44 /* ResistorBandDetector.swift in Sources */,
+				3DB2F2BC2DEEA8E8006EAE44 /* ResistorColorSampler.swift in Sources */,
+				3DB2F2C02DEEA8FF006EAE44 /* ResistorColorExtractor.swift in Sources */,
+				3D33ED992D84E106008F76A5 /* LABColor.swift in Sources */,
+				3D33ED952D84A159008F76A5 /* CameraPreviewRepresentable.swift in Sources */,
+				3DB2F2C42DEF5B8B006EAE44 /* ColorUtilities.swift in Sources */,
+				3DB2F2C62DEF5C02006EAE44 /* ImprovedResistorCalculator.swift in Sources */,
+				3D3311482DB46B50002B5AAF /* CompatibleContentView.swift in Sources */,
+				3D3311442DB46B0C002B5AAF /* ResistorColorClassifier.swift in Sources */,
+				3D95E8212DEBE8BC00F4EB7C /* IntegratedResistorAnalyzer.swift in Sources */,
+				3D33113E2DB45E3F002B5AAF /* ImprovedResultsView.swift in Sources */,
+				3D95E81F2DEBE65100F4EB7C /* ResistorValueApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D33ED832D84A12C008F76A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D33ED842D84A12C008F76A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D33ED862D84A12C008F76A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Resistor Value/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for resistor identification";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Resistor-Value";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D33ED872D84A12C008F76A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Resistor Value/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for resistor identification";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Resistor-Value";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D33ED722D84A12B008F76A5 /* Build configuration list for PBXProject "Resistor Value" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D33ED832D84A12C008F76A5 /* Debug */,
+				3D33ED842D84A12C008F76A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D33ED852D84A12C008F76A5 /* Build configuration list for PBXNativeTarget "Resistor Value" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D33ED862D84A12C008F76A5 /* Debug */,
+				3D33ED872D84A12C008F76A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D33ED6F2D84A12B008F76A5 /* Project object */;
+}
